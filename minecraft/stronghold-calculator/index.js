@@ -140,6 +140,6 @@ function calculate() {
     document.getElementById("stronghold-coord-x").value = x
     document.getElementById("stronghold-coord-z").value = z
 
-    document.getElementById("stronghold-coord-x-end").value = Math.round(x / 8)
-    document.getElementById("stronghold-coord-z-end").value = Math.round(z / 8)
+    document.getElementById("stronghold-coord-x-end").value = Math.floor(x / 8)
+    document.getElementById("stronghold-coord-z-end").value = Math.floor(z / 8)
 }
